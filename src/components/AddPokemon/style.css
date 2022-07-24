@@ -1,0 +1,40 @@
+.add-pokemon {
+  border: 2px solid gainsboro;
+  margin-top: 20px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 4px;
+}
+.add-pokemon-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 10px;
+  padding: 20px;
+}
+
+.grid-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.grid-column {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+}
+
+.add-pokemon-buttons {
+  display: flex;
+  margin-right: auto;
+  justify-content: center;
+  margin-left: auto;
+}
+.add-pokemon-buttons > button {
+  margin: 8px;
+}
+
+.input-label {
+  margin-right: 8px;
+}
