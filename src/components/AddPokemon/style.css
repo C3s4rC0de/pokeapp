@@ -5,10 +5,11 @@
   text-align: center;
   border-radius: 4px;
 }
+
 .add-pokemon-grid {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
   grid-gap: 10px;
   padding: 20px;
 }
@@ -17,6 +18,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+@media (max-width: 650px) {
+  .grid-row {
+    display: block;
+  }
 }
 
 .grid-column {
@@ -31,6 +37,7 @@
   justify-content: center;
   margin-left: auto;
 }
+
 .add-pokemon-buttons > button {
   margin: 8px;
 }

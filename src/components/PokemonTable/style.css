@@ -2,3 +2,76 @@
   margin-top: 20px;
   width: 100%;
 }
+
+.pokemon-image {
+  height: 80px;
+}
+
+.actions > img {
+  margin-right: 16px;
+  cursor: pointer;
+}
+
+.dragon {
+  background-color: rgb(241, 136, 24);
+}
+
+.tierra {
+  background-color: rgb(142, 110, 75);
+}
+
+.hielo {
+  background-color: rgb(172, 234, 253);
+}
+
+.psiquico {
+  background-color: rgb(234, 0, 148);
+}
+
+.roca {
+  background-color: rgb(148, 81, 81);
+}
+
+.acero {
+  background-color: rgb(123, 123, 123);
+}
+
+.fantasma {
+  background-color: rgb(247, 247, 247);
+}
+
+.electrico {
+  background-color: rgb(255, 255, 161);
+}
+
+.bicho {
+  background-color: #f6d6a7;
+}
+
+.veneno {
+  background-color: #e0a7f6;
+}
+
+.normal {
+  background-color: #f4f4f4;
+}
+
+.hada {
+  background-color: rgba(255, 192, 203, 0.863);
+}
+
+.fuego {
+  background-color: #fbe3df;
+}
+
+.planta {
+  background-color: #8ee88a;
+}
+
+.agua {
+  background-color: #e0f1fd;
+}
+
+.volador {
+  background-color: #279aec;
+}

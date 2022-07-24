@@ -23,6 +23,10 @@ code {
   border: 2px solid gainsboro;
 }
 
+.select-input {
+  margin-left: 30px;
+}
+
 button {
   display: flex;
   background-color: mediumblue;
@@ -60,5 +64,14 @@ td {
 }
 
 h4 {
+  margin: 0;
+}
+
+.icon {
+  width: 20px;
+  margin-right: 8px;
+}
+
+.no-margin {
   margin: 0;
 }
